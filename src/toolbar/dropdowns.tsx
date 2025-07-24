@@ -4,9 +4,9 @@ import { EditorState, useEditorState } from '../editor/EditorContext';
 
 export const BtnStyles = createDropdown('Styles', [
   ['Normal', 'formatBlock', 'DIV'],
-  ['𝗛𝗲𝗮𝗱𝗲𝗿 𝟭', 'formatBlock', 'H1'],
-  ['Header 2', 'formatBlock', 'H2'],
-  ['𝙲𝚘𝚍𝚎', 'formatBlock', 'PRE'],
+  ['Título 𝟭', 'formatBlock', 'H1'],
+  ['Título 2', 'formatBlock', 'H2'],
+  ['𝙲ó𝚍igo', 'formatBlock', 'PRE'],
 ]);
 
 export function createDropdown(

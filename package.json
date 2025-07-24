@@ -1,11 +1,14 @@
 {
-  "name": "react-simple-wysiwyg",
-  "version": "3.4.0",
+  "name": "@jonathatargino/react-simple-wysiwyg",
+  "version": "3.5.0",
   "description": "Simple and lightweight React WYSIWYG editor",
   "main": "lib/index.cjs.js",
   "module": "lib/index.es.mjs",
   "unpkg": "lib/index.umd.min.js",
   "typings": "lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "npm run build && npm start --prefix examples/typescript",
     "build": "rm -rf lib && rollup -c",

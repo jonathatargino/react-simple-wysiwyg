@@ -24,6 +24,7 @@ export const DefaultEditor = React.forwardRef(function DefaultEditor(
       <Editor {...props} ref={ref}>
         {props.children || (
           <Toolbar>
+            <BtnStyles />
             <BtnBold />
             <BtnItalic />
             <BtnUnderline />
@@ -33,9 +34,7 @@ export const DefaultEditor = React.forwardRef(function DefaultEditor(
             <BtnBulletList />
             <Separator />
             <BtnLink />
-            <BtnClearFormatting />
             <Separator />
-            <BtnStyles />
           </Toolbar>
         )}
       </Editor>
