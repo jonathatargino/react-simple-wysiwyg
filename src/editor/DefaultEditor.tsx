@@ -8,12 +8,9 @@ import {
   BtnItalic,
   BtnLink,
   BtnNumberedList,
-  BtnRedo,
   BtnStrikeThrough,
   BtnStyles,
   BtnUnderline,
-  BtnUndo,
-  HtmlButton,
   Separator,
   Toolbar,
 } from '../toolbar';
@@ -27,9 +24,6 @@ export const DefaultEditor = React.forwardRef(function DefaultEditor(
       <Editor {...props} ref={ref}>
         {props.children || (
           <Toolbar>
-            <BtnUndo />
-            <BtnRedo />
-            <Separator />
             <BtnBold />
             <BtnItalic />
             <BtnUnderline />
@@ -40,7 +34,6 @@ export const DefaultEditor = React.forwardRef(function DefaultEditor(
             <Separator />
             <BtnLink />
             <BtnClearFormatting />
-            <HtmlButton />
             <Separator />
             <BtnStyles />
           </Toolbar>
