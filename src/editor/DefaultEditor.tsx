@@ -4,7 +4,6 @@ import { EditorProvider } from './EditorContext';
 import {
   BtnBold,
   BtnBulletList,
-  BtnClearFormatting,
   BtnItalic,
   BtnLink,
   BtnNumberedList,
